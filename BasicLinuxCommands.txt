@@ -1,3 +1,7 @@
 ## To Create directory
 
 mkdir "DIR_NAME"
+
+## To Change directory
+
+cd "DIR_NAME"
