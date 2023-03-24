@@ -1,0 +1,12 @@
+pwd this command is used to now the present working directory 
+chmod this command is used to add and remove read write and view access 
+cd .. this command is used to come back from the present working directory
+du -sh this command is used to check the disck utilization 
+free -m this command is used to check the ram size it will show the used space and free space 
+ps -ef this command use to view a processor of the machine 
+ps -ef | grep ec2_user  this command used to view with the fillter like particular user processor
+df -h this command is used to view the file system size 
+zip this command is used to zip the file 
+unzip this command is used to unzip the file 
+exit this command is used to exit the user 
+logout this command is used to logout the root user 
