@@ -1,0 +1,11 @@
+how to adduser, addgroup,setpasswd,change user in different group ,usermod
+useradd yoaraj this command is used to creat user. one user will created with the name yogaraj
+cat /etc/passwd this command is used to show the user detail with the encryption passwd file
+group add superhero this command is used to create a group 
+user -G superhero superman this command is used to add user in the group 
+cat /etc/group this command is used to show the user details 
+usermod -G superhero,yogaraj superman this command is used to add superman user to yogaraj,superhero 
+cat /etc/group
+yogaraj passwd this command is used to addpasswd for yogaraj
+cat /etc/shadow this command is used to show the passwd file 
+cat /etc/paaswd 
