@@ -1,0 +1,7 @@
+corn job is linux command for scheduling  a task it will Automat  the services which we can manually set in the format of corn job
+*                  *                   *                *                   *
+minutes          hours                day of the month  month           day  of the weekend  all are starts from zero 
+# check corn job service on linux system 
+sudo systemctl status corn.service 
+cat /etc/corntab
+corntab -l
