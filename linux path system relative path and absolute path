@@ -1,0 +1,19 @@
+relative path and absolut path
+relative path, path relative to the present working directory. pwd 
+suppos i am located in /var/log and .i want to change directory to /var/log/text.txt I can use relative path
+absolute path complete path from start of actual filesystem from / directory 
+  25  cd dir1
+   26  pwd
+   27  ls 
+   28  mv f1 ../dir2
+   29  ls 
+   30  cd ../dir2
+   31  ls 
+   32  cd 
+   33  pwd
+   34  cd /tmp/dir2/f1 /tmp/dir1
+   35  mv /tmp/dir2/f1 /tmp/dir1
+   36  ls /tmp/dir1
+   37  pwd
+   38  cd /tmp/dir1
+   39  ls
