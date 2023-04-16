@@ -1,0 +1,25 @@
+`> # user=u group=g others=o all=a`
+`#add=+ remove=- assign=`
+***#read=r write=w execute=x***
+
+-  #ls -l /root/dir1/test1
+- -rw-r--r--. it just raw file in linux there is nothing mentioned in front of rw it just - so its raw file
+- #ls -ld /root/dir1/
+- drwxrwxrwt. it is a dir so will see the first letter is **d**rwxrwxrwt
+- #ls -l /root/dir1/
+- lrwxrwxrwt. it is a link file soft hard  so will see the first letter is **l**rwxrwxrwt
+- #ls -l /dev/vbd/
+- brwxrwx---. it is block file media files like external drives (pen drive )
+- #tty
+- terminal file one user can connect multiple time multiple user can connect multiple time
+- #ls -l /dev/pts/1
+- crw--w-----. Caracter file
+- r d l b cls socket file pipefile
+- #file /etc/passwd
+- /etc/passwd :ASCII text file
+- #file /etc/ 
+-  file /etc/. directory
+- #file /dev/vbd
+- file /dev/vbd block file
+- #234 - user permission 
+
